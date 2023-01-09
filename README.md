@@ -1,7 +1,7 @@
 # DST-1024
 [SF homework](https://github.com/xsomxsomx/DST-1024)
 ## Проекты
-* [Проект 0. Игра: Угадай число](https://github.com/xsomxsomx/DST-1024/blob/main/game_v2.py)
+* [Проект 0. Игра: Угадай число](https://github.com/xsomxsomx/DST-1024/tree/main/project_0)
 
 Угадываем рандомно
 
