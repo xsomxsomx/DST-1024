@@ -14,7 +14,7 @@ def random_predict(number:int=1) -> int:
 
     while True:
         count += 1
-        predict_number = np.random.randint(1, 101) # предполагаемое число
+        predict_number = np.random.randint(1, 101) # предполагаемое число от 1 до 100
         if number == predict_number:
             if count < 20:
                 break # выход из цикла, если меньше 20 попыток
