@@ -14,16 +14,19 @@ def random_predict(number:int=1) -> int:
     low = 1
     high = 100
     
-    while low <= high:
-        count += 1
-        middle = (low + high)//2
-        predict_number = np.random.randint(1, 101) # предполагаемое число от 1 до 100
-        if number == predict_number:
-            break # выход из цикла, число угадано
-        elif number > predict_number: 
-            high = middle - 1
-        else:
-            low = middle + 1 
+    while True:    # заходим в вечный цикл
+        count += 1    # увеличиваем количество попыток на единицу
+        predict_number = low + (high - low) // 2    # как предполагаемое число, берем середину нашего отрезка
+
+        if number > predict_number:    # проверяем что загаданное число больше нашего предположения
+            low = predict_number    # если больше, то левую границу сдвигаем и делаем ее равной нашему предполагаемому числу
+        elif number < predict_number:    # если первое условие не сработало, проверяем что число меньше нашего предположения
+            high = predict_number    # если условие верно, сдвигаем правую границу и делаем ее равной нашему предполагаемому числу
+        else:    # если оба условия оказались ложны, то значит числа равны и мы угадали число
+            break    # принудительно выходим из цикла
+    
+        if count > 20:    # это дополнительное условие, для того, чтобы не уйти в вечный цикл
+            break
     return(count)
 
 print(f'Количество попыток: {random_predict()}')
