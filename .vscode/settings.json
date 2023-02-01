@@ -5,6 +5,7 @@
         "Danks",
         "Grath",
         "Landsize",
+        "Lattitude",
         "Propertycount",
         "Regionname",
         "Skillfactory",
@@ -33,5 +34,8 @@
         "риэлторских",
         "риэлторского",
         "риэлторской"
+    ],
+    "cSpell.words": [
+        "риелторская"
     ]
 }
