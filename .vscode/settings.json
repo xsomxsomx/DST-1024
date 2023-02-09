@@ -39,10 +39,14 @@
         "риелторская",
         "риелторского",
         "aggfunc",
+        "BOXPLOT",
         "concat",
+        "LINEPLOT",
         "mframe",
         "mser",
         "randn",
-        "rsuffix"
-    ]
+        "rsuffix",
+        "SCATTERPLOT"
+    ],
+    "files.maxMemoryForLargeFilesMB": 4096
 }
