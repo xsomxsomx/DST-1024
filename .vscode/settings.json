@@ -67,6 +67,7 @@
         "rsuffix",
         "SCATTERPLOT",
         "Seaborn",
+        "treemap",
         "vacc",
         "xaxis",
         "xlabel",
