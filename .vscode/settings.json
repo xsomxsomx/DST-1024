@@ -37,8 +37,10 @@
         "риэлторской"
     ],
     "cSpell.words": [
+        "геопривязки",
         "группировочный",
         "датасет",
+        "датафрейм",
         "многоуровневости",
         "риелторская",
         "риелторского",
@@ -47,6 +49,7 @@
         "barh",
         "barplot",
         "BOXPLOT",
+        "choropleth",
         "cmap",
         "concat",
         "croped",
@@ -56,6 +59,7 @@
         "isin",
         "jointplot",
         "LINEPLOT",
+        "locationmode",
         "matplotlib",
         "mframe",
         "mser",
