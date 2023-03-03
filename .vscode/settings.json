@@ -68,6 +68,7 @@
         "figsize",
         "fillna",
         "fontsize",
+        "histnorm",
         "histplot",
         "isin",
         "isnull",
